@@ -12,34 +12,6 @@ This application provides a comprehensive platform for analyzing historical Air 
 
 ---
 
-## How to Run the Application
-Follow these steps to set up and run the project on your local machine.
-
-### Step 1: Install Dependencies
-First, you need to install all the required Python libraries. A `requirements.txt` file is provided for this purpose.
-
-### Step 2: Prepare the Data
-The raw data needs to be cleaned and preprocessed. Run the data_preprocessing.py script.
-This will read city_day.csv, clean it, and save the result as cleaned_city_day.csv.
-
-bash
- ~ python data_preprocessing.py
-
-### Step 3: Train the Prediction Model
-Next, train the machine learning model using the cleaned data. Run the model_training.py script.
-This will create a file named aqi_predictor.pkl which contains the trained model.
-
-bash
- ~ python model_training.py
-
-### Step 4: Launch the Streamlit App
-Now you are ready to run the main application. Use the following command in your terminal:
-
-bash
- ~ streamlit run app.py
-
-Your web browser should open a new tab with the running application.
-
 ### File Structure
  - app.py: The main Streamlit application script.
  - data_preprocessing.py: Script to clean and prepare the data.
