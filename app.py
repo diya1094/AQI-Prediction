@@ -1,5 +1,6 @@
 #--- LOAD DATA AND MODEL ---
-@st.cache_data
+import streamlit as st
+import pandas as pd
 def load_data(path):
     """Loads the cleaned data."""
     try:
