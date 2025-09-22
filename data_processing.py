@@ -1,6 +1,6 @@
 import pandas as pd
 
-def preprocess_data(input_path='city_day.csv', output_path='cleaned_city_day.csv'):
+def preprocess_data(input_path='data/city_day.csv', output_path='cleaned_city_day.csv'):
     """
     Cleans the city_day.csv data and saves it to a new file.
 
