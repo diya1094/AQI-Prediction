@@ -1,5 +1,6 @@
 #--- LOAD DATA AND MODEL ---
 import pickle
+import plotly.express as px
 import streamlit as st
 import pandas as pd
 def load_data(path):
@@ -172,4 +173,5 @@ elif page == "❤️ Health Advisor":
     """, unsafe_allow_html=True)
     
     st.image('image_9a8c07.png', caption='AQI Categories and Health Impacts', use_column_width=True)
+
 
